@@ -30,7 +30,7 @@ function App() {
               <img src={avatar_url} alt={login} />
               <section>
                 <h3>{login}</h3>
-                <h3>{html_url}</h3>
+                <a href={html_url}>Profile</a>
               </section>
             </li>
           );
